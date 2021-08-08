@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function NestedList() {
+export default function LeftBar() {
     const classes = useStyles();
     const [open, setOpen] = React.useState(true);
 
